@@ -1,13 +1,11 @@
 package workshop05code;
 
 import java.io.BufferedReader;
+import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
-//Included for the logging exercise
-import java.io.FileInputStream;
-import java.util.logging.Level;
 import java.util.logging.LogManager;
 import java.util.logging.Logger;
 
@@ -83,7 +81,7 @@ public class App {
                     System.out.println("Sorry. This word is NOT in the the list.\n");
                 }
                 } else {
-                    System.out.println("Sorry. '" + guess + "' is NOT a valid word.\n")
+                    System.out.println("Sorry. '" + guess + "' is NOT a valid word.\n");
                 }
 
                 System.out.print("Enter a 4 letter word for a guess or q to quit: " );
